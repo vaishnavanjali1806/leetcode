@@ -20,7 +20,8 @@ class FindElements {
         if (root.right != null) {
             root.right.val = 2 * root.val + 2;
             recoverTree(root.right);
-      
+        }
+    }
 
     public boolean find(int target) {
         return recoveredValues.get(target);
