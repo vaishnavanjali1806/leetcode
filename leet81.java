@@ -11,7 +11,7 @@ class Solution {
                 }
                
                 stack.remove(stack.size() - 1);
-                num = (top / g) * num;  // safer LCM
+                num = (top / g) * num;  
             }
             stack.add(num);
         }
