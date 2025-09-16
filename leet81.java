@@ -9,7 +9,7 @@ class Solution {
                 if (g == 1) {
                     break;
                 }
-                // merge top with current num (via LCM)
+               
                 stack.remove(stack.size() - 1);
                 num = (top / g) * num;  // safer LCM
             }
